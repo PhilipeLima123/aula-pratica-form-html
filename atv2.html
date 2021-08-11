@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv 2</title>
+
+    <style>
+        #area {
+          left:35%;
+          top:29%;
+          width:450px;
+          height:270px;
+        }
+    </style>
+
+</head>
+    <body>
+        <div id="area">
+            <form id="formulario" autocomplete="on">
+              <fieldset>
+                  
+        <form action="atv2.link" method="POST">
+            <h2>Dados pessoais</h2>
+
+            <label for="Nome:"> Nome:</label>
+            <input type="text" name="Nome" id="nome">
+            <br> <br>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade">
+        
+            <h2>Dados profissionais</h2>
+            <label for="Escolaridade">Escolaridade: </label> 
+            <select name="Escolaridade" id="Escolaridade"><br>
+                <option value="">Ensino médio</option>
+                <option value="Fundamental">Fundamental</option>
+                <option value="Superior">Superior</option>
+            </select>
+<br>
+            <label for="Área de atuação>">Área de atuação?</label>
+            <input type="radio" id="Gerência" name="emprego" value="Gerência" >
+            <label for="Gerência">Gerênciao</label> 
+            <input type="radio" id="Financeiro" name="emprego" value="Financeiro">
+            <label for="Financeiro">Financeiro</label> 
+            <input type="radio" id="Recepção" name="emprego" value="Recepção">
+            <label for="Recepção">Recepção</label> 
+        </form>
+</body>
+</html>

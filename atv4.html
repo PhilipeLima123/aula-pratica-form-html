@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv 4</title>
+
+    <style>
+        #area {
+
+          left:35%;
+          top:29%;
+          width:480px;;
+          height:170px;
+        }
+    </style>
+
+</head>
+
+    <body>
+
+        <div id="area">
+            <form id="formulario" autocomplete="on">
+              <fieldset>
+
+        <h6>Manutenção de órgão Colegiado</h6>
+
+                <table border="1">
+                    <tr >
+                        <td>Unidade</td>
+                        <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo Colegiado</td>
+                        <td>CONGREGAÇÃO</td>
+                    </tr>
+                </table>
+
+<br>
+
+<h6>Órgão Colegiado</h6>
+
+<form action="atv4.html" method="POST"></form>
+
+<label for="Nome"> Nome:</label>
+<input type="text" name="Nome" id="nome"> <br>
+
+<br>
+<section style="display: inline-block; ">
+
+<label for="Sigla"> Sigla:</label>
+<input style="width: 30px;" type="text" name="Sigla" id="Sigla"> <br>
+
+</section>
+
+<section style="display: inline-block; margin-left: 90px;">
+<label for="Status">Status</label> 
+<select name="Status" id="Status"><br>
+<option value="">Ativado</option>
+<option value="Desativado">Desativado</option>
+
+
+</select>
+</section>
+
+<br>
+<br>
+
+<section tyle="display: inline-block; ">
+
+<label for="Data">Data de Ativação:</label>
+<input style="width: 40px; type="date" name="Data" id="data">
+
+</section>
+
+<section  style="display: inline-block; margin-left: 290px;">
+
+<label for="Data">Data de Desativação:</label>
+<input style="width: 40px; type="date" name="Data" id="data">
+
+</section>
+           
+<br>
+<br>
+
+<label for="Nome"> Orgão de Origem</label>
+<input type="text" name="Nome" id="nome"> 
+<input type="submit" value="Buscar">
+<br>
+<label for="Nome"> Orgão Superior</label>
+<input type="text" name="Nome" id="nome"> 
+<input type="submit" value="Buscar">
+
+<br>
+<br>
+
+<label for="Documentação">Documentação</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+
+<br>
+<br>
+
+<section style="display:inline-block; ">
+
+    <input type="submit" value="Salvar">
+
+</section>
+
+<section style="display: inline-block; margin-left: 300px;">
+
+    <input type="submit" value="Salvar">
+
+</section>
+
+</div>
+</body>
+</html>
